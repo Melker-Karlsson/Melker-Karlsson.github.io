@@ -47,6 +47,14 @@ body{
     width: 30%;
     height: 200px;
     box-shadow: 0 0 8px blueviolet;
+    text-decoration: none;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.project::-webkit-scrollbar{
+    display: none;
 }
 
 .project:hover{
