@@ -1,0 +1,14 @@
+#profileImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    shape-outside: circle(100%);
+    border: 2px solid purple;
+    float: left;
+    margin-right: 12px;
+}
+
+#profileContainer{
+    border-bottom: 2px solid purple;
+    animation: fadeIn 1s ease;
+}
