@@ -3,7 +3,7 @@ import './components/Profile'
 import Profile from './components/Profile'
 import Utbildning from './components/Utbildning'
 import Styrkor from './components/Styrkor'
-import MyProjects from './components/myProjects'
+import MyProjects from './components/MyProjects'
 
 function App() {
 
