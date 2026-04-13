@@ -7,3 +7,7 @@
     float: left;
     margin-right: 12px;
 }
+
+#profileContainer{
+    border-bottom: 2px solid purple;
+}
