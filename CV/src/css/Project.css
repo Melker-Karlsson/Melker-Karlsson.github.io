@@ -1,12 +1,12 @@
 .project{
   width: 300px;
   height: 200px;
-  box-shadow: 0 0 8px blueviolet;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
   border: 2px solid purple;
   border-radius: 12px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 a{
@@ -23,5 +23,8 @@ a{
 }
 
 .project:hover{
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(35, 35, 35);
+  box-shadow: 0 0 8px blueviolet;
+  transform: scale(1.02);
 }
+

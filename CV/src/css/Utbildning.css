@@ -1,6 +1,7 @@
 #utbildningContainer{
     width: 100%;
     border-bottom: 2px solid purple ;
+    animation: fadeIn 2s ease;
 }
 
 #utbildningContainer ul{

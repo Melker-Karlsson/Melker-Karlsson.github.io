@@ -7,4 +7,14 @@
     width: 100%;
     justify-content: center;
     margin-top: 12px;
+    animation: fadeIn 4s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

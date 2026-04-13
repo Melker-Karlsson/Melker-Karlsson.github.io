@@ -10,4 +10,12 @@
 
 #profileContainer{
     border-bottom: 2px solid purple;
+    animation: fadeIn 1s ease;
+}
+
+#name{
+    
+}
+
+#email{
 }
