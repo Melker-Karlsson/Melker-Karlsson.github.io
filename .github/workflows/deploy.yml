@@ -35,17 +35,20 @@ jobs:
         with:
           node-version: lts/*
           cache: 'npm'
+          cache-dependency-path: './CV/package-lock.json'
       - name: Install dependencies
         run: npm ci
+        working-directory: ./CV
       - name: Build
         run: npm run build
+        working-directory: ./CV
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
           # Upload dist folder
-          path: './dist'
+          path: './CV/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
